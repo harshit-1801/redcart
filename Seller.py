@@ -53,7 +53,7 @@ def passcheck():
             digit=1
             break
         
-    if digit!=1 or len(password)<9:
+    if digit!=1 or len(password)<8:
         print("Password must contains a digit,special symbol($,%,@) and must have upto 8 character") 
         return(passcheck())
     else:
